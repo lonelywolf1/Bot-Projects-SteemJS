@@ -1,0 +1,20 @@
+{
+  "name": "tutorial1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheLonelyWolF",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0",
+    "password-hash": "^1.2.2",
+    "socket.io": "^2.1.0",
+    "steem": "^0.7.1"
+  }
+}
