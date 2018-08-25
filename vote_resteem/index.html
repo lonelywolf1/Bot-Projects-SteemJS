@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vote, Resteem and comment</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="form">
+        <span class="not" id="not-id"></span>
+        <input type="text" id="steem-username" placeholder="Username" class="form-control" /><br>
+        <input type="password" id="steem-password" placeholder="Private WIF Key (Posting WIF Key)" class="form-control" /><br>
+        <input type="text" id="steem-url" placeholder="Post URL" class="form-control" /><br>
+        <div id="v-s">
+            <label id="vote-strength-value">20%</label>
+            <input type="range" class="form-control-range" id="vote-strength" min="0" max="100" value="20" />
+        </div>
+        <button class="btn btn-primary" id="vote-show">Vote</button>
+        <button class="btn btn-success" id="resteem">Resteem</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.steemjs.com/lib/latest/steem.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>
