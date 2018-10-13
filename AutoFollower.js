@@ -18,7 +18,7 @@ console.log("Listen to port " + port);
 
 });
 
-var user = "lonelywolf", tag = "cryptocurrency", key = "5JHmrUYmSjg8cs8byHW93HtCZXViamB417th3tdPEXdqUEjq2zJ", limit = 3;
+var user = "lonelywolf", tag = "cryptocurrency", key = "***", limit = 3;
 
 AutoFollower(user, tag, key, limit);
 
